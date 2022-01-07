@@ -1,14 +1,15 @@
 import React from 'react';
 
-import Header from '../components/layouts/Header';
-import ScrollUp from '../components/utils/ScrollUp';
+import PageTemplate from '../components/layouts/PageTemplate';
 
 const Home: React.FC = () => {
     return (
         <>
-        <Header />
-        <h1>Hello World!!</h1>
-        <ScrollUp />
+            <PageTemplate title="Home">
+                <>
+                    <h1>Hello World!!</h1>
+                </>
+            </PageTemplate>
         </>
     )
 }
