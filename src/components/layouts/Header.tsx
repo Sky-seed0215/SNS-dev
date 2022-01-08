@@ -35,7 +35,7 @@ const Header: React.FC = () => {
             onClose={handleDrawerToggle}
           >
             <MenuList>
-              <Link href="/">
+              <Link href="/home">
                 <MenuItem>
                   <ListItemIcon>
                     <HomeIcon />
