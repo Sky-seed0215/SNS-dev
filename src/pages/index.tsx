@@ -31,9 +31,9 @@ const Top: React.FC = () => {
         },
         {
             title: "アカウントをお持ちの方はこちら",
-            description: "アカウントをお持ちの方はこちらからログインしてください!",
-            action: "ログイン >",
-            href: "/login",
+            description: "アカウントをお持ちの方はこちらからサインインしてください!",
+            action: "サインイン >",
+            href: "/signin",
         }
     ]
 
